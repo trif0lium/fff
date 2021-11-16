@@ -9,7 +9,7 @@ type ResponsiveInfo = Record<string, boolean>;
 
 let info: ResponsiveInfo;
 
-let responsiveConfig: ResponsiveConfig = {
+export const responsiveConfig: ResponsiveConfig = {
   xs: 0,
   sm: 576,
   md: 768,
@@ -43,10 +43,10 @@ function calculate() {
   }
 }
 
-export function configResponsive(config: ResponsiveConfig) {
-  responsiveConfig = config;
-  if (info) calculate();
-}
+// export function configResponsive(config: ResponsiveConfig) {
+//   responsiveConfig = config;
+//   if (info) calculate();
+// }
 
 export function useResponsive() {
   const windowExists = typeof window !== 'undefined';
