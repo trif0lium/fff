@@ -1,3 +1,4 @@
+import { Footer } from './components/Footer'
 import { Hero } from './components/Hero'
 import { HowToStrike } from './components/HowToStrike'
 import { ReasonsToStrike } from './components/ReasonsToStrike'
@@ -10,6 +11,7 @@ function App() {
       <ReasonsToStrike />
       <HowToStrike />
       <SocialMedia />
+      <Footer />
     </div>
   )
 }
