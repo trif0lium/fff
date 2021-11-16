@@ -52,8 +52,8 @@ export const Hero = () => {
         <ActionButton>Start Action Today</ActionButton>
       </ActionContainer>
       <HeroDescription>
-        Vercel combines the best developer experience with an obsessive focus on end-user performance. Our platform
-        enables frontend teams to do their best work.
+        #FridaysForFuture is a youth-led and organised movement that began in August 2018. It was started by 15-year-old
+        Greta Thunberg, who sat in front of the Swedish parliament every schoolday for three weeks.
       </HeroDescription>
     </HeroContainer>
   );
