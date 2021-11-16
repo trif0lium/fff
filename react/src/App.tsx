@@ -1,18 +1,15 @@
-import { useState } from 'react'
-import styled from 'styled-components'
-
-const Title = styled.h1`
-  color: red;
-`
+import { Hero } from './components/Hero'
+import { HowToStrike } from './components/HowToStrike'
+import { ReasonsToStrike } from './components/ReasonsToStrike'
+import { SocialMedia } from './components/SocialMedia'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <div className="App">
-      <header className="App-header">
-        <Title onClick={() => setCount(count + 1)}>Hello Vite + React! {count}</Title>
-      </header>
+      <Hero />
+      <ReasonsToStrike />
+      <HowToStrike />
+      <SocialMedia />
     </div>
   )
 }
