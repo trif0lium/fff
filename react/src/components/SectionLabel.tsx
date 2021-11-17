@@ -18,7 +18,14 @@ const Heading = styled.h2<HeadingProps>`
   font-weight: 700;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  background-image: linear-gradient(90deg, ${props => props.startColor ?? '#000'}, ${ props => props.endColor ?? '#000'})
+  background-image: linear-gradient(90deg, ${props => props.startColor ?? '#000'}, ${ props => props.endColor ?? '#000'});
+  margin: 16px 0;
+`
+
+const SectionTitle = styled.h2`
+  font-weight: 700;
+  font-size: 3.75rem;
+  margin: 0
 `
 
 export const SectionLabel: React.FC<Props> = ({ number, heading, startColor, endColor }: Props) => {
@@ -29,6 +36,7 @@ export const SectionLabel: React.FC<Props> = ({ number, heading, startColor, end
         <span style={{ display: "flex", fontWeight: 700 }}>{number}</span>
       </div>
       <Heading startColor={startColor} endColor={endColor}>{heading}</Heading>
+      <SectionTitle>{heading}</SectionTitle>
     </div>
   </>)
 }
