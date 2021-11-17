@@ -1,12 +1,13 @@
 import styled from 'styled-components';
 
 const HeroTitle = styled.span`
-  font-size: 10rem;
-  line-height: 15rem;
+  font-size: 8rem;
+  line-height: 1;
 `;
 
 const HeroTitleOuter = styled.span`
-  height: 10rem;
+  font-size: 8rem;
+  line-height: 1;
 `;
 
 const HeroTitleOne = styled(HeroTitle)`
@@ -75,7 +76,6 @@ const HeroTitleContainer = styled.h1`
   display: flex;
   flex-direction: column;
   text-align: center;
-  margin-bottom: 128px;
 `;
 
 const HeroContainer = styled.div``;
