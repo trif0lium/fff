@@ -36,20 +36,7 @@ export const HowToStrike = () => {
           </div>
           <div style={{ marginBottom: '64px' }}>
             <Title>Alternatives to physical strikes</Title>
-            <Paragraph>
-              Many people are unable to strike in person. They might not want to miss school or work, or it is not safe
-              for them to do so, or they may have disabilities that make it difficult or impossible to sit or stand
-              outside for long periods. However, there are many alternative possibilities.
-              <br />
-              Striking indoors with a sign and hashtag on social media (like #FridaysForFuture; #Climatestrikeonline,
-              #Digitalstrike) totally counts – so have fun and get creative! Write and perform a climate strike song!
-              The possibilities are endless.
-              <br />
-              You can also sign petitions in Actions and communicate them on social media.
-              <br />
-              Learning more about the climate crisis is also important, and turning knowledge into lists of things you
-              and your family will do.
-            </Paragraph>
+            <Paragraph>Many people are unable to strike physically. They may not want to miss school or work because it is unsafe for them, or they may have disabilities that make it difficult or impossible for them to sit or stand outside for long periods of time. However, there are numerous other options.<br /><br />Striking indoors with a banner and a hashtag on social media (such as #FridaysForFuture; #Climatestrikeonline, #Digitalstrike) counts as well, so have fun and be creative! Make a song about the climate strike and perform it! The options are limitless.<br /><br />You can also sign live petitions and share them on social media. It's also crucial to learn more about the climate catastrophe and apply that information into action plans for you and your family.</Paragraph>
           </div>
           <div style={{ marginBottom: '64px' }}>
             <Title>Fridays For Future Strike Culture</Title>
