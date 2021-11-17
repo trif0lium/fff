@@ -16,12 +16,7 @@ export const HowToStrike = () => {
     <div style={{ display: "flex", justifyContent: "center" }}>
       <div style={{ maxWidth: '600px' }}>
         <div style={{ marginBottom: '64px' }}>
-          <Paragraph>
-            Talk to people you know (family, friends) and try to get them to understand how serious the situation is.
-            Start small. You can strike on your own, but it is often more fun and more productive to get some friends
-            together. Decide on a time and place to strike and invite members of local climate justice groups and
-            environmental groups. The more people the better!
-          </Paragraph>
+          <Paragraph>Talk to people you know (family, friends) and try to persuade them of the gravity of the situation. Begin with a small project. You can strike on your own, but it's usually more enjoyable and productive to gather a group of friends. Decide on a strike date and location, and invite members of local climate justice and environmental organizations to join you. The more people there are, the better!</Paragraph>
         </div>
           <div style={{ marginBottom: '64px' }}>
             <Title>Getting Start</Title>
