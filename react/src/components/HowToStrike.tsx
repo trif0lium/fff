@@ -32,15 +32,7 @@ export const HowToStrike = () => {
           </div>
           <div style={{ marginBottom: '64px' }}>
             <Title>Choosing Where and When to strike</Title>
-            <Paragraph>
-              You’re welcome to follow Greta’s lead and strike in front of your closest town hall, city hall or other
-              local government building every Friday from 8.00-15.00, including holidays.
-              <br />
-              Many weekly strikes are shorter and start at noon.
-              <br />
-              Striking in front of a publicly owned building and in the same place and time each week makes it easier
-              for others to join.
-            </Paragraph>
+            <Paragraph>Every Friday from 8 a.m. to 15 a.m., including holidays, you are welcome to strike in front of your nearest town hall, city hall, or other local government building, following Greta's lead. Many weekly strikes last only a few hours and begin at midday. Striking each week in front of a publicly owned building and at the same time and location makes it simpler for others to join.</Paragraph>
           </div>
           <div style={{ marginBottom: '64px' }}>
             <Title>Alternatives to physical strikes</Title>
