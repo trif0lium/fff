@@ -54,11 +54,7 @@ export const HowToStrike = () => {
           </div>
           <div>
             <Title>Stay Safe</Title>
-            <Paragraph>
-              Fridays For Future only want you to strike in a way that you feel safe and comfortable with. We are a
-              peaceful organization, but we have seen cases of counter protestors, so please take care to prioritize
-              your safety. 
-            </Paragraph>
+            <Paragraph>Fridays For Future simply wants you to strike in a manner that makes you feel safe and secure. Although we are a peaceful organization, we have seen instances of counter-protestors, so please prioritize your safety.</Paragraph>
           </div>
         </div>
     </div>
