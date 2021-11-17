@@ -23,8 +23,11 @@ const Heading = styled.h2<HeadingProps>`
 
 export const SectionLabel: React.FC<Props> = ({ number, heading, startColor, endColor }: Props) => {
   return (<>
-    <div style={{ display: "flex" }}>
-      <span style={{ width: "40px", height: "40px", borderRadius: "1000", background: `linear-gradient(90deg, ${startColor}, ${endColor})` }}>{number}</span>
+    <div style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
+      <span style={{ width: "1px", height: "100px", background: `linear-gradient(#FFF, ${endColor})`, display: "flex" }}></span>
+      <div style={{ width: "40px", height: "40px", borderRadius: "1000px", display: "flex", background: `linear-gradient(90deg, ${startColor}, ${endColor})`, color: "#FFF", justifyContent: "center", alignItems: "center", textAlign: "center" }}>
+        <span style={{ display: "flex", fontWeight: 700 }}>{number}</span>
+      </div>
       <Heading startColor={startColor} endColor={endColor}>{heading}</Heading>
     </div>
   </>)
