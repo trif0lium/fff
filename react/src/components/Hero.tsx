@@ -23,13 +23,15 @@ const HeroTitleOne = styled(HeroTitle)`
     0%,
     100% {
       background: linear-gradient(90deg, #007cf0, #00dfd8);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
       position: relative;
       z-index: 1;
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
     }
     75% {
       background: black;
+      background-clip: text;
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
     }
