@@ -1,4 +1,9 @@
-import { FiFacebook, FiTwitter, FiInstagram, FiYoutube } from 'react-icons/fi';
+import {
+  FiFacebook as Facebook,
+  FiTwitter as Twitter,
+  FiInstagram as Instagram,
+  FiYoutube as YouTube
+} from 'react-icons/fi';
 import styled from 'styled-components';
 
 const SocialMediaContainer = styled.div`
@@ -21,12 +26,11 @@ const SocialIconContainer = styled.div`
 
 export const SocialMedia = () => (
   <SocialMediaContainer>
-    <h2>See us on Social</h2>
     <SocialIconContainer>
-      <FiFacebook />
-      <FiTwitter />
-      <FiInstagram />
-      <FiYoutube />
+      <Facebook />
+      <Twitter />
+      <Instagram />
+      <YouTube />
     </SocialIconContainer>
   </SocialMediaContainer>
 );
