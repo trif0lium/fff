@@ -20,7 +20,7 @@ export const HowToStrike = () => {
         </div>
           <div style={{ marginBottom: '64px' }}>
             <Title>Amplify the Message</Title>
-            <Paragraph>Examine the "contact" pages on the websites of local newspapers and television stations. Send them an announcement about the time and location of your strike, as well as the presence of signs and banners that will make for great photos. Consider taking a few photos and sending them to media outlets during the strike. On social media, ask friends who have a large number of followers to share your message. Don't be afraid to ask! This is critical work. Remember to share your accomplishments on social media with the hashtags #FridaysForFuture and #ClimateStrike. We require your assistance! We will make a difference only if we work together.</Paragraph>
+            <Paragraph>Examine the "contact" pages on the websites of local newspapers and television stations. Send them an announcement about the time and location of your strike, as well as the presence of signs and banners that will make for great photos. Consider taking a few photos and sending them to media outlets during the strike. On social media, ask friends who have a large number of followers to share your message. Don't be afraid to ask! This is critical work.<br /><br />Remember to share your accomplishments on social media with the hashtags #FridaysForFuture and #ClimateStrike. We require your assistance! We will make a difference only if we work together.</Paragraph>
           </div>
           <div style={{ marginBottom: '64px' }}>
             <Title>Get Permissions?</Title>
