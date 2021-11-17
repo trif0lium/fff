@@ -120,7 +120,7 @@ export const Hero = () => {
     <HeroContainer>
       <HeroTitleContainer>
         <HeroTitleOuter>
-          <HeroTitleOne>Friday.</HeroTitleOne>
+          <HeroTitleOne>Fridays.</HeroTitleOne>
         </HeroTitleOuter>
         <HeroTitleOuter>
           <HeroTitleTwo>For.</HeroTitleTwo>
