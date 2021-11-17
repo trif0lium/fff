@@ -1,12 +1,5 @@
 import styled from 'styled-components';
 
-const Big = styled.h4`
-  font-size: 3.75rem;
-  margin-bottom: 24px;
-  padding-bottom: 12px;
-  letter-spacing: -.05em
-  font-weight: 700;
-`;
 const Title = styled.h5`
   font-size: 1.5rem;
   margin-bottom: 12px;
@@ -20,10 +13,9 @@ const Paragraph = styled.p`
 `;
 export const HowToStrike = () => {
   return (
-    <>
-      <div style={{ textAlign: 'center' }}>
+    <div style={{ display: "flex", justifyContent: "center" }}>
+      <div style={{ maxWidth: '600px' }}>
         <div style={{ marginBottom: '64px' }}>
-          <Big>How to Strike</Big>
           <Paragraph>
             Talk to people you know (family, friends) and try to get them to understand how serious the situation is.
             Start small. You can strike on your own, but it is often more fun and more productive to get some friends
@@ -104,7 +96,7 @@ export const HowToStrike = () => {
               </ul>
             </Paragraph>
           </div>
-          <div style={{ marginBottom: '64px' }}>
+          <div>
             <Title>Stay Safe</Title>
             <Paragraph>
               Fridays For Future only want you to strike in a way that you feel safe and comfortable with. We are a
@@ -113,6 +105,6 @@ export const HowToStrike = () => {
             </Paragraph>
           </div>
         </div>
-    </>
+    </div>
   );
 };

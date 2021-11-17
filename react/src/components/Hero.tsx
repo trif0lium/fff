@@ -1,12 +1,21 @@
 import styled from 'styled-components';
 
 const HeroTitle = styled.span`
-  font-size: 10rem;
-  line-height: 15rem;
+  font-size: 8rem;
+  line-height: 1;
+  font-weight: 800;
+  @media (max-width: 720px) {
+    font-size: 23vw;
+  }
 `;
 
 const HeroTitleOuter = styled.span`
-  height: 10rem;
+  font-size: 8rem;
+  line-height: 1;
+  font-weight: 800;
+  @media (max-width: 720px) {
+    font-size: 23vw;
+  }
 `;
 
 const HeroTitleOne = styled(HeroTitle)`
@@ -75,7 +84,7 @@ const HeroTitleContainer = styled.h1`
   display: flex;
   flex-direction: column;
   text-align: center;
-  margin-bottom: 128px;
+  margin: 64px 0;
 `;
 
 const HeroContainer = styled.div``;
@@ -111,7 +120,7 @@ export const Hero = () => {
     <HeroContainer>
       <HeroTitleContainer>
         <HeroTitleOuter>
-          <HeroTitleOne>Friday.</HeroTitleOne>
+          <HeroTitleOne>Fridays.</HeroTitleOne>
         </HeroTitleOuter>
         <HeroTitleOuter>
           <HeroTitleTwo>For.</HeroTitleTwo>

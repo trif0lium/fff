@@ -1,4 +1,9 @@
-import { FiFacebook, FiTwitter, FiInstagram, FiYoutube } from 'react-icons/fi';
+import {
+  BsFacebook as Facebook,
+  BsTwitter as Twitter,
+  BsInstagram as Instagram,
+  BsYoutube as YouTube
+} from 'react-icons/bs';
 import styled from 'styled-components';
 
 const SocialMediaContainer = styled.div`
@@ -10,23 +15,21 @@ const SocialMediaContainer = styled.div`
 
 const SocialIconContainer = styled.div`
   /* display: inline-grid;
-  grid-gap: 50px; */
-  margin-top: 20px;
+  grid-gap: 40px; */
   svg {
-    width: 50px;
+    width: 40px;
     padding: 0 20px;
-    height: 50px;
+    height: 40px;
   }
 `;
 
 export const SocialMedia = () => (
   <SocialMediaContainer>
-    <h2>See us on Social</h2>
     <SocialIconContainer>
-      <FiFacebook />
-      <FiTwitter />
-      <FiInstagram />
-      <FiYoutube />
+      <Facebook />
+      <Twitter />
+      <Instagram />
+      <YouTube />
     </SocialIconContainer>
   </SocialMediaContainer>
 );
