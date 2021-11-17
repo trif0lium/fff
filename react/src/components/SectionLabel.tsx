@@ -20,12 +20,14 @@ const Heading = styled.h2<HeadingProps>`
   -webkit-text-fill-color: transparent;
   background-image: linear-gradient(90deg, ${props => props.startColor ?? '#000'}, ${ props => props.endColor ?? '#000'});
   margin: 16px 0;
+  text-align: center;
 `
 
 const SectionTitle = styled.h2`
   font-weight: 700;
   font-size: 3.75rem;
-  margin: 0
+  margin: 0;
+  text-align: center;
 `
 
 export const SectionLabel: React.FC<Props> = ({ number, heading, startColor, endColor }: Props) => {
