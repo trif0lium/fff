@@ -3,11 +3,19 @@ import styled from 'styled-components';
 const HeroTitle = styled.span`
   font-size: 8rem;
   line-height: 1;
+  font-weight: 800;
+  @media (max-width: 720px) {
+    font-size: 23vw;
+  }
 `;
 
 const HeroTitleOuter = styled.span`
   font-size: 8rem;
   line-height: 1;
+  font-weight: 800;
+  @media (max-width: 720px) {
+    font-size: 23vw;
+  }
 `;
 
 const HeroTitleOne = styled(HeroTitle)`
@@ -76,6 +84,7 @@ const HeroTitleContainer = styled.h1`
   display: flex;
   flex-direction: column;
   text-align: center;
+  margin: 64px 0;
 `;
 
 const HeroContainer = styled.div``;
