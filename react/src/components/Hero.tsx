@@ -19,22 +19,19 @@ const HeroTitleOuter = styled.span`
 `;
 
 const HeroTitleOne = styled(HeroTitle)`
+  background: linear-gradient(90deg, #007cf0, #00dfd8);
+  position: relative;
+  z-index: 1;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   @keyframes hero1 {
     0%,
     100% {
-      background: linear-gradient(90deg, #007cf0, #00dfd8);
-      position: relative;
-      z-index: 1;
-      background-clip: text;
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
+      opacity: 1;
     }
-    75% {
-      background-clip: text;
-      background: black;
-      background-clip: text;
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
+    25% {
+      opacity: 0;
     }
   }
 
@@ -43,21 +40,19 @@ const HeroTitleOne = styled(HeroTitle)`
 `;
 
 const HeroTitleTwo = styled(HeroTitle)`
+  background: linear-gradient(90deg, #7928ca, #ff0080);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  position: relative;
+  z-index: 1;
   @keyframes hero2 {
     0%,
     100% {
-      background: black;
-      -webkit-background-clip: text;
-      background-clip: text;
-      -webkit-text-fill-color: transparent;
+      opacity: 1;
     }
-    25% {
-      background: linear-gradient(90deg, #7928ca, #ff0080);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      background-clip: text;
-      position: relative;
-      z-index: 1;
+    50% {
+      opacity: 0;
     }
   }
 
@@ -66,21 +61,19 @@ const HeroTitleTwo = styled(HeroTitle)`
 `;
 
 const HeroTitlethree = styled(HeroTitle)`
+  background: linear-gradient(90deg, #ff4d4d, #f9cb28);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  position: relative;
+  z-index: 1;
   @keyframes hero3 {
     0%,
     100% {
-      background: black;
-      -webkit-background-clip: text;
-      background-clip: text;
-      -webkit-text-fill-color: transparent;
+      opacity: 1;
     }
-    50% {
-      background: linear-gradient(90deg, #ff4d4d, #f9cb28);
-      -webkit-background-clip: text;
-      background-clip: text;
-      -webkit-text-fill-color: transparent;
-      position: relative;
-      z-index: 1;
+    75% {
+      opacity: 0;
     }
   }
 
