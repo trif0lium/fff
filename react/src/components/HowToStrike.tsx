@@ -28,16 +28,7 @@ export const HowToStrike = () => {
           </div>
           <div style={{ marginBottom: '64px' }}>
             <Title>Get Permissions?</Title>
-            <Paragraph>
-              Many of our strikes have been approved by the police. If you’re organizing a strike, you might want to
-              check if you need police approval.  Often these approvals only allow for a quiet, sitting protest.  Check
-              the laws in your area if you want to use any amplified noises like music or loudspeakers for speeches.
-              This may require a permit as well.
-              <br />
-              Fridays For Future is unlikely to be able to provide legal support should problems occur, so if they do,
-              we would advise liaising with NGOs in your area who know local lawyers, well versed in protest
-              situations. 
-            </Paragraph>
+            <Paragraph>The cops have approved many of our strikes. If you're planning a strike, you should see if you require police permission. Frequently, these licenses only permit a silent, sitting protest. If you want to utilize any amplified noises for speeches, such as music or loudspeakers, check your local rules. This may also necessitate obtaining a permit. Fridays For Future is unlikely to be able to help with legal issues, therefore if they arise, we recommend contacting local NGOs who know local lawyers who are familiar with protest circumstances.</Paragraph>
           </div>
           <div style={{ marginBottom: '64px' }}>
             <Title>Choosing Where and When to strike</Title>
