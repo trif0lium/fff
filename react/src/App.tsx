@@ -11,7 +11,7 @@ function App() {
     <div className="App">
       <Container>
         <Hero />
-        <div style={{ marginBottom: "64px" }} />
+        <div style={{ marginBottom: "128px" }} />
         <SectionLabel number={1} heading="Reasons To Strike" startColor="#007CF0" endColor="#00DFD8" />
         <div style={{ marginBottom: "64px" }} />
         <ReasonsToStrike />
