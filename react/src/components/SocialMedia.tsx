@@ -31,7 +31,7 @@ const Link = styled.a`
 export const SocialMedia = () => (
   <SocialMediaContainer>
     <SocialIconContainer>
-      <Link href="https://www.youtube.com/channel/UChb23_19GTIWDF7-zXNrT3g">
+      <Link href="https://www.facebook.com/FridaysForFuture.org/">
         <Facebook />
       </Link>
       <Link href="https://twitter.com/Fridays4future">
@@ -40,7 +40,7 @@ export const SocialMedia = () => (
       <Link href="https://www.instagram.com/fridaysforfuture/">
         <Instagram />
       </Link>
-      <Link href="https://www.facebook.com/FridaysForFuture.org/">
+      <Link href="https://www.youtube.com/channel/UChb23_19GTIWDF7-zXNrT3g">
         <YouTube />
       </Link>
     </SocialIconContainer>
