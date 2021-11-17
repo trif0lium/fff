@@ -96,7 +96,7 @@ export const HowToStrike = () => {
               </ul>
             </Paragraph>
           </div>
-          <div style={{ marginBottom: '64px' }}>
+          <div>
             <Title>Stay Safe</Title>
             <Paragraph>
               Fridays For Future only want you to strike in a way that you feel safe and comfortable with. We are a
