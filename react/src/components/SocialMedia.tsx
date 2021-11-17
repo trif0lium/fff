@@ -15,11 +15,11 @@ const SocialMediaContainer = styled.div`
 
 const SocialIconContainer = styled.div`
   /* display: inline-grid;
-  grid-gap: 40px; */
+  grid-gap: 32px; */
   svg {
-    width: 40px;
-    padding: 0 20px;
-    height: 40px;
+    width: 32px;
+    padding: 0 16px;
+    height: 32px;
   }
   color: #fff;
 `;
