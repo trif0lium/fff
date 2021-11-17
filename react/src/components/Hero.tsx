@@ -84,10 +84,16 @@ const HeroTitleContainer = styled.h1`
   display: flex;
   flex-direction: column;
   text-align: center;
-  margin: 64px 0;
+  margin: 64px 0 64px 0;
 `;
 
-const HeroContainer = styled.div``;
+const HeroContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 128px;
+`;
 const ActionContainer = styled.div`
   display: flex;
   justify-content: center;
@@ -118,6 +124,7 @@ const HeroDescription = styled.div`
 export const Hero = () => {
   return (
     <HeroContainer>
+      <small style={{ fontSize: "0.75rem", letterSpacing: "0.2rem", padding: 0, margin: 0, fontWeight: 700 }}>P2 CONTROL</small>
       <HeroTitleContainer>
         <HeroTitleOuter>
           <HeroTitleOne>Fridays.</HeroTitleOne>
