@@ -122,7 +122,7 @@ const HeroDescription = styled.div`
   text-align: center;
 `;
 
-export const Hero = () => {
+export const Hero = ({ howToStrikeRef }: { howToStrikeRef: React.MutableRefObject<null> }) => {
   return (
     <HeroContainer>
       <small style={{ fontSize: '0.75rem', letterSpacing: '0.2rem', padding: 0, margin: 0, fontWeight: 700 }}>
@@ -140,7 +140,17 @@ export const Hero = () => {
         </HeroTitleOuter>
       </HeroTitleContainer>
       <ActionContainer>
-        <ActionButton>Start Action Today</ActionButton>
+        <ActionButton
+          onClick={() => {
+            window.scrollTo({
+              top: (howToStrikeRef?.current as any).offsetTop || 0,
+              left: 0,
+              behavior: 'smooth',
+            });
+          }}
+        >
+          Start Action Today
+        </ActionButton>
       </ActionContainer>
       <HeroDescription>
         #FridaysForFuture is a youth-led and organised movement that began in August 2018. It was started by 15-year-old
